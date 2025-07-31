@@ -45,7 +45,7 @@ print(dir(requests))       # dir is a built-in function in python which returns 
 # You can also import functions and variables from a file you made, example:
 # (all the above methods can be used here too)
 
-from sample import wassup,Andrew
+from day42 import wassup,Andrew
 
 wassup()
 print(Andrew)

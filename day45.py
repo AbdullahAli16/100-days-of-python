@@ -4,8 +4,8 @@
 #  get those functions executions or operations performed in that file
 #    For example:
 
-import sample
-print(sample.Andrew)             # In output we get all these funcitons executions and operations that are being
+import day42
+print(day42.Andrew)             # In output we get all these funcitons executions and operations that are being
                             # performed in day42.py file instead of just the wassap function.
 
 # How do we solve it ???
