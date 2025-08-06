@@ -1,0 +1,17 @@
+# Bytecode files
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+.idea/
+
+#The folder
+new/
+
+# Images or assets
+*.png
+*.jpeg
+
+# My personal local file
+myfile.txt
