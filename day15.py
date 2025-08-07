@@ -1,4 +1,4 @@
-#Day 14(Greeting program using (if else and user input)) (I made)
+# Day: 15(Ex: 02 "Greeting program")
 
 print("Welcome to the greeting program :)")
 name= str(input("Enter your name: "))

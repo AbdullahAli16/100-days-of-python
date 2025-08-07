@@ -1,6 +1,4 @@
-# Day: 63(Ex: 5 Snake, Water and Gun solution)
-
-# Day: 64(Ex: 6 Library Management System)
+# Day: 64(Ex: 06 "Library Management System")
 
 '''Books would be a list, no_of_book is an integer, when you add books the no_of_books should increase
     make a method which will check if no of books= len(books) and if its not true print somethings is wrong

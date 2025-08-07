@@ -1,5 +1,7 @@
-#Day 37 (Finally keyword)
+# Day: 37(Finally keyword)
+
 # The content after the finally keyword is always executed
+
 def func():
     try:
         list=[1,5,9]

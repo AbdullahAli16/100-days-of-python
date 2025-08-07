@@ -1,4 +1,5 @@
-#Day 35(Using else with for and while loop)
+# Day: 35(Using else with for and while loop)
+
 for i in range(5):
     print(i)
     if i==4:

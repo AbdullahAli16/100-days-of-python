@@ -1,4 +1,4 @@
-#Day 28(f-strings)
+# Day: 28(f-strings)
 
 '''before fstring this method was used'''
 intro= "Hello my name is {} and I am from {}"

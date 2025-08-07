@@ -1,5 +1,3 @@
-# Day: 47(Excercise 4 solution)
-
 # Day: 48(Local and Global Variables)
 
 var_1= 7          #Global variable

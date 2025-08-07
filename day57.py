@@ -1,4 +1,4 @@
-# Day: 58( Classes and Objects)
+# Day: 57(Classes and Objects)
 
 class enemy:
     grade= "regular"

@@ -1,6 +1,4 @@
-# Day: 67(Ex: 6 Library Management System solution)
-
-# Day: 68(Ex: 7 Clear the clutter )
+# Day: 68(Ex: 07 "Clear the Clutter")
 
 import os
 i=1             #starting number

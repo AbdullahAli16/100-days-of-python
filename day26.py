@@ -1,4 +1,6 @@
-import time #Using time module 
+# Day: 26(Instructor's solution to Ex: 02 "Greeting Program")
+
+import time     #Using time module 
 stdtime= time.strftime('%H:%M:%S')
 
 print("Welcome to the greeting program :)")

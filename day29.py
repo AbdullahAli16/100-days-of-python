@@ -1,4 +1,4 @@
-# Day 29(Docstrings)
+# Day: 29(Docstrings)
 
 def square(n):
     '''takes a number as n, returns the square of n'''

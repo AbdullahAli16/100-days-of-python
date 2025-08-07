@@ -1,4 +1,5 @@
-#Day 19(Continue and break statements)
+# Day: 19(Continue and break statements)
+
 for t in range(11):
     if(t==9):
         print("Mein nikla loop se hehehe") #note that in break the table didnt went further while in continue

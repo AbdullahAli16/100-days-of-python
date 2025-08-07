@@ -1,4 +1,4 @@
-# Day: 55(Exercise no:5 Snake, Water, Gun game)
+# Day: 55(Ex: 05 "Snake, Water, Gun game")
 
 
 # game=

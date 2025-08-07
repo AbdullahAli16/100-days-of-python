@@ -1,5 +1,5 @@
-# Day 26 Ex: 2 shoutouts etc
-# Day 27 Ex:3 (Kaun baega Crorepati)
+# Day: 27(Ex: 03 "Kaun baega Crorepati")
+
 import random
 name= input("Enter your name: ")
 questions=["Name the tallest mountain peak in the world ","When was French revolution approved ?",

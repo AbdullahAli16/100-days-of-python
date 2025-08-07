@@ -1,4 +1,4 @@
-#Day 16(Switch case (Match))
+# Day: 16(Switch case (Match))
 
 x= int(input("Enter value of x: "))
 

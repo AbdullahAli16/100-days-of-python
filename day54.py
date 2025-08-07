@@ -1,4 +1,4 @@
-# Day: 54( The different between 'is' and '==' operator )
+# Day: 54(The difference between 'is' and '==' operator)
 
 # Both 'is' and '== ' are comparison operators
 

@@ -1,4 +1,4 @@
-# Day 42 (Enumerate Function)
+# Day: 42(Enumerate Function)
 
 marks = [89,74,64,91,57]
 

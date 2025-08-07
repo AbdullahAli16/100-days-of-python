@@ -1,4 +1,5 @@
-# Day27 Ex:3 (Correct version by gpt)
+# Day: 39(Instructor's solution to Ex: 03 "Kaun Banega Crorepati")
+
 import random
 
 # ✅ User input

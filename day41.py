@@ -1,4 +1,4 @@
-# Day 41: (Short hand if-else statements)
+# Day: 41(Short hand if-else statements)
 
 num1= 300
 num2= 3300

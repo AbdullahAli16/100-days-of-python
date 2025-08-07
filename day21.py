@@ -1,17 +1,5 @@
-#Day 20(Functions)
-def calculateGmean(a,b):
-    print((a*b)/(a+b))
-    if a>b:
-        print("A is greater")
-    else:
-        print("B is greater or equal")
+# Day: 21(Function arguments)
 
-def emptyFunction ():
-    pass #Doesnt generate an error
-
-calculateGmean(1,4)
-
-#Day 21(Function arguments)
 def average(*numbers): #Arguments weill be taken in the form of a tuple
     sum=0
     for n in numbers:

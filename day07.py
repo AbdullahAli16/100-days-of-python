@@ -1,4 +1,4 @@
-#Day 7 (Calculator Exercise)
+# Day: 07(Ex: 01 "Calculator")
 cond=True
 while cond==True:
     print("Welcome to My Calculator Program")

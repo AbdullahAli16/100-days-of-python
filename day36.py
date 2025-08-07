@@ -1,4 +1,4 @@
-# Day 36 (Exception Handling using try and except)
+# Day: 36(Exception Handling using try and except)
 
 n= input("Enter a number: ")
 print(f"This is the mutiplication table of {n}:")

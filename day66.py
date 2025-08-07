@@ -1,4 +1,4 @@
-# Day: 65(Instance variables VS Class variables)
+# Day: 66(Instance variables VS Class variables)
 
 class Employee:
     company="Apple"
