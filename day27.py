@@ -1,59 +1,48 @@
 # Day: 27(Ex: 03 "Kaun baega Crorepati")
 
 import random
-name= input("Enter your name: ")
-questions=["Name the tallest mountain peak in the world ","When was French revolution approved ?",
-           "Name the year in which World War 2 ended? "]
-
-questions_ans=["mount everest","1789","1945"]
-
+# name= input("Enter your name: ")
+questions=[
+            ["Name the tallest mountain peak in the world",
+            "Mount Everest","K2","Mauna Kea","Kangchenjunga",1],
+           ["When was French revolution approved ?",
+            1971,1642,1789,1519,3],
+           ["Name the year in which World War 2 ended?",
+            1940,1945,1946,1939,2]
+           ]
 prize_amount=[100,1000,10000] 
 
-j=0
-total=0
+i=0 # Variable for iterating
+random.shuffle(questions)
 
-print(f"\nWelcome to Kaun Bnega Crorepati {name} !!!\nHere, you will play a quiz\
- consisting of {len(questions)} questions. The reward will start from {prize_amount[0]}$ all the way to\
- {prize_amount[len(prize_amount)-1]}$. I'am ready ,when you are :D ") 
 
-condition= str(input("Type 'yes' to begin: "))
-condition.lower()
-if condition == "yes":
-    
-    for i in questions:
-    
-            
-        print("\nQuestion No",(questions.index(i)+1),"for the amount of :",prize_amount[j],"$")
+for index , question in enumerate(questions):
+        print(f"\n{question[0]}")
+        print(f"1- {question[1]:<15} 2- {question[2]:<15}")
+        print(f"3- {question[3]:<15} 4- {question[4]:<15}\n")
+        answer=int(input("Enter your answer (1-4): "))
+        # print(answer) 
         
-        rand_question =random.randint(0,len(questions)-1)
-        print("\n",questions[rand_question])
-        
-        answer= str(input("Answer: "))
-        Answer=answer.lower()
-        
-        current_amount= prize_amount[j]
-        
-        total= current_amount + total
-        j= j+1
-        
-        print("\nThe amount that you have currently won is: ",total,"$")
-        
-        if (i == len(questions)-1):
-            print(f"Congratulations,  you have won {total}$. Have fun Millionare :)")
-            break
-        
-        elif questions[rand_question]==questions_ans[rand_question] and Answer in questions_ans:
-            print(f'The answer is "Correct", before moving onto the next question,do you want to continue playing or do you want to quit with your {total} $ ?\n')
-            answer_2=str(input("Type 'yes' if you wish to play further: "))
-            answer_2=answer_2.lower()
-            if answer_2=="yes":
-                continue
-            else:
+        if answer == question[-1]:
+            if len(questions)-1==index:
+                print(f"Congratulations, You have won the highest prize of '{prize_amount[i]}' Rs.\n Have a Great Day :)")
                 break
-            
-        elif questions[rand_question]!=questions_ans[rand_question] and Answer not in questions_ans:
-            print(f'Oops, looks like the answer is "Incorrect", but congratulations on winning {total}. Goodbye :)\n')
-            break
-
-else:
-    print("Oh, I Guess you are busy right now, no worries. Just run the program again when you are ready :)")
+            else:
+                pass
+            print(f"Your answer is Correct. You have won {prize_amount[i]} Rs.\n")
+            print(f"Do you want to go continue or leave now with your {prize_amount[i]} Rs ?")
+            cont_cond= str(input("What's your answer ? (Yes/No): "))
+            cont_cond=cont_cond.strip().lower()
+            if (cont_cond == "no"):
+                print(f"Well, congrats on winning your {prize_amount[i]} Rs. Goodbye.")
+                break
+            elif(cont_cond == "yes"):
+                pass 
+            else:
+                print("Wrong input, so quiting anyways ...")
+                break
+            i=i+1
+        else:
+            print("Oops, your answer is Incorrect.")    
+    
+    
