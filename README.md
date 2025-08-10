@@ -96,6 +96,17 @@ Each file documents daily practice, concepts, and mini-projects I've built to st
 | 68 | Exercise 07: Clear the Clutter |
 | 69 | Class Methods |
 | 70 | Alternative Constructors via Class Methods |
+| 71 | `dir()`, `__dict__`, and `help()` Method |
+| 72 | `super()` Keyword |
+| 73 | Magic/Dunder Methods |
+| 74 | Method Overriding |
+| 75 | Instructor's Solution to Exercise 07 |
+| 76 | Exercise 08: Merge the PDF |
+| 77 | Operator Overloading |
+| 78 | Single Inheritance |
+| 79 | Multiple Inheritance |
+| 80 | Multilevel Inheritance |
+
 
 > 🔄 Will continue updating this list as I progress.
 
