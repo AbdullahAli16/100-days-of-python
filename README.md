@@ -106,6 +106,10 @@ Each file documents daily practice, concepts, and mini-projects I've built to st
 | 78 | Single Inheritance |
 | 79 | Multiple Inheritance |
 | 80 | Multilevel Inheritance |
+| 81 | Hybrid & Hierarchical Inheritance |
+| 82 | Instructor's Solution to Exercise 08: Merge the PDF |
+| 83 | Exercise 09: "Shoutouts for Everyone" |
+| 84 | `time` Module |
 
 
 > 🔄 Will continue updating this list as I progress.
