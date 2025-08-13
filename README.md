@@ -110,6 +110,15 @@ Each file documents daily practice, concepts, and mini-projects I've built to st
 | 82 | Instructor's Solution to Exercise 08: Merge the PDF |
 | 83 | Exercise 09: "Shoutouts for Everyone" |
 | 84 | `time` Module |
+| 85 | Creating Command-Line Utility |
+| 86 | Walrus Operator |
+| 87 | `shutil` Module |
+| 88 | Instructor's Solution to Exercise 09: "Shoutouts for Everyone" |
+| 89 | `requests` Module |
+| 90 | Exercise 10: "News App" |
+| 91 | Generators |
+| 92 | Function Caching |
+| 93 | Instructor's Solution to Exercise 10: "News App" |
 
 
 > 🔄 Will continue updating this list as I progress.
