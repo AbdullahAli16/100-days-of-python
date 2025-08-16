@@ -119,9 +119,14 @@ Each file documents daily practice, concepts, and mini-projects I've built to st
 | 91 | Generators |
 | 92 | Function Caching |
 | 93 | Instructor's Solution to Exercise 10: "News App" |
+| 94 | Exercise 11: "Drink Water Reminder" |
+| 95 | Regular Expressions |
+| 96 | `asyncio` Module |
+| 97 | Multi-threading |
+| 98 | Multi-processing |
+| 99 | Instructor's Solution to Exercise 11: "Drink Water Reminder" |
+| 100 | Completion |
 
-
-> 🔄 Will continue updating this list as I progress.
 
 ## 📬 Connect With Me
 
