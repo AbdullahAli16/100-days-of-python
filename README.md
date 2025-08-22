@@ -132,7 +132,7 @@ Each file documents daily practice, concepts, and mini-projects I've built to st
 
 - 🔗 [GitHub Profile](https://github.com/abdullahali16)
 - 💼 [LinkedIn](https://linkedin.com/in/abdullah-ali-777)
-- 📧 abdullah139200481@gmail.com
+- 📧 abdullah.ali.devx@gmail.com
 
 ⭐ Thanks for stopping by! This marks the completion of my **100 Days of Python** journey 🚀.  
 Feel free to explore the code, and star the repo if you found it helpful!
